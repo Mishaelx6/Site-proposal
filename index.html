@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Proposal: Author & Organization Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-left: 4px solid #3498db;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .signature {
+            margin-top: 50px;
+            border-top: 1px dashed #333;
+            padding-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Proposal: Author & Organization Website with E-Book Sales + Video Integration</h1>
+    
+    <div class="highlight">
+        <p><strong>Client:</strong> Dr Samuel Owokoniran</p>
+        <p><strong>Project:</strong> Dynamic Website for Organization Info, E-Book Distribution & YouTube Video Gallery</p>
+        <p><strong>Timeline:</strong> 8 Weeks (Start Date: [Date])</p>
+        <p><strong>Budget:</strong> ₦150,000</p>
+    </div>
+
+    <h2>1. Introduction</h2>
+    <p>This proposal outlines the development of a professional website for Dr Samuel Owokoniran, featuring comprehensive organization details, a secure e-book platform, and integrated YouTube video gallery. Users will read PDF books and watch embedded videos for free, with paid downloads via payment gateway. The project will be completed in <strong>8 weeks</strong> within ₦150,000.</p>
+
+    <h2>2. Scope of Work</h2>
+    <h3>Key Features:</h3>
+    <ul>
+        <li><strong>Organization Information:</strong> Homepage, About, Mission, Contact.</li>
+        <li><strong>E-Book Library:</strong>
+            <ul>
+                <li>Online PDF reader (no download).</li>
+                <li>Download option after payment (Paystack/Flutterwave).</li>
+            </ul>
+        </li>
+        <li><strong>YouTube Video Gallery:</strong>
+            <ul>
+                <li>Embedded videos from client's YouTube channel.</li>
+                <li>Categorized display (e.g., book trailers, interviews).</li>
+            </ul>
+        </li>
+        <li><strong>User Accounts:</strong> Manage downloads/purchases.</li>
+        <li><strong>Admin Panel:</strong> Upload books/videos, manage content, track payments.</li>
+        <li><strong>Responsive Design:</strong> Mobile/desktop optimized.</li>
+    </ul>
+
+    <h2>3. Project Timeline & Deliverables</h2>
+    <table>
+        <tr>
+            <th>Week</th>
+            <th>Phase</th>
+            <th>Tasks</th>
+            <th>Deliverables</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Planning & Design</td>
+            <td>- Requirement analysis, sitemap, wireframes.</td>
+            <td>Approved wireframes & design mockups.</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>UI/UX Design</td>
+            <td>- Design homepage, e-book library, video gallery, payment flow.</td>
+            <td>Finalized designs (Figma).</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Frontend Setup</td>
+            <td>- Develop homepage, About, Contact pages.</td>
+            <td>Core website structure (HTML/CSS/JS).</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Core Systems (Part 1)</td>
+            <td>- Build online PDF reader (PDF.js).<br>- Video Integration: YouTube API setup.</td>
+            <td>Functional reader + user accounts.<br>Embedded video player.</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Core Systems (Part 2)</td>
+            <td>- Download/payment logic; gateway integration.<br>- Video Gallery: Categorization and display.</td>
+            <td>Testable payment flow.<br>Organized video section.</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Admin Panel & Backend</td>
+            <td>- Create admin dashboard for books/videos/uploads.</td>
+            <td>Secure admin panel (PHP/Python).</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Testing & Refinement</td>
+            <td>- User testing, video/reader compatibility checks, security.</td>
+            <td>UAT report; client feedback.</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Deployment & Training</td>
+            <td>- Launch site; train client on admin use.</td>
+            <td>Live website; documentation.</td>
+        </tr>
+    </table>
+
+   
+
+    <h2>5. Technical Implementation Highlights</h2>
+    <ul>
+        <li><strong>Video Integration:</strong>
+            <ul>
+                <li>YouTube iframe API for seamless embedding.</li>
+                <li>Custom video gallery with filters (e.g., by topic, date).</li>
+                <li>Auto-sync with client's YouTube channel (manual/admin-triggered updates).</li>
+            </ul>
+        </li>
+        <li><strong>E-Book Security:</strong>
+            <ul>
+                <li>PDFs watermarked for online reading.</li>
+                <li>Download restricted to paid users only.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>6. Additional Notes</h2>
+    <ul>
+        <li><strong>Hosting & Domain:</strong> Client to provide (recommended: AWS/DigitalOcean).</li>
+        <li><strong>Third-Party Costs:</strong>
+            <ul>
+                <li>Payment gateway fees (e.g., Paystack: 1.5% + ₦100 per transaction).</li>
+                <li>YouTube API (free tier sufficient).</li>
+            </ul>
+        </li>
+        <li><strong>Post-Launch Support:</strong> 2 weeks free bug fixes.</li>
+    </ul>
+
+    <h2>7. Terms & Conditions</h2>
+    <ul>
+        <li><strong>Payments:</strong>
+            <ul>
+                <li>40% upfront (₦60,000) to commence work.</li>
+                <li>40% after Week 4 (₦60,000).</li>
+                <li>20% upon completion (₦30,000).</li>
+            </ul>
+        </li>
+        <li><strong>Revisions:</strong> 3 rounds max per phase.</li>
+    </ul>
+
+    <h2>Next Steps:</h2>
+    <ul>
+        <li>Provide organization content/PDFs/YouTube channel by Week 3.</li>
+    </ul>
+
+    <div class="signature">
+        <p><strong>Mishael Johnson</strong></p>
+        <p><strong>Contact:</strong> mishaeljohnson56@gmail.com</p>
+    </div>
+
+    <div class="footer">
+        <p>Key Advantage: Video integration adds dynamic content at no extra cost or timeline delay. The budget remains optimized while delivering a richer user experience! 🎥📚</p>
+    </div>
+</body>
+</html>
